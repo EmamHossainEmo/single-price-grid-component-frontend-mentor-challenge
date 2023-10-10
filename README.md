@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/singlepricegridcomponent-UOx3fIUd_N)
 - Live Site URL: [Live Site](https://emamhossainemo.github.io/single-price-grid-component-frontend-mentor-challenge)
 
 ## My process
