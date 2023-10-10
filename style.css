@@ -1,0 +1,244 @@
+/* 
+========================
+GENERAL STYLES
+========================
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding-bottom: 30px;
+  background-color: #e5eff5;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  max-width: 400px;
+  margin: 50px 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* 
+========================
+SHARED STYLES
+========================
+*/
+
+#top-section,
+#bottom-left-section,
+#bottom-right-section {
+  padding: 30px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+p {
+  line-height: 26px;
+}
+
+/* 
+========================
+TOP SECTION
+========================
+*/
+
+#top-section {
+  background-color: #fff;
+}
+
+#top-section h1 {
+  color: #2ab2af;
+}
+
+#top-section h3 {
+  color: #c0df34;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#top-section p {
+  color: #98a6bd;
+  line-height: 26px;
+}
+
+/* 
+========================
+BOTTOM SECTION
+========================
+*/
+
+#bottom-section {
+  color: #e5eff5;
+}
+
+/* 
+========================
+BOTTOM LEFT SECTION
+========================
+*/
+
+#bottom-left-section {
+  background-color: #2ab2af;
+}
+
+#price-container {
+  margin-bottom: 10px;
+}
+
+#price {
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+#price-frequency {
+  font-size: 0.8rem;
+  margin-left: 5px;
+  opacity: 0.8;
+
+  display: inline-block;
+  position: relative;
+  top: -3px;
+}
+
+#bottom-section p {
+  margin-bottom: 25px;
+  font-size: 0.9rem;
+}
+
+button {
+  color: inherit;
+  background-color: #c0df34;
+  padding: 13px;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px #00000011;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #a9c42d;
+  transform: scale(1.013);
+}
+
+/* 
+========================
+BOTTOM RIGHT SECTION
+========================
+*/
+
+#bottom-right-section {
+  background-color: #2ebfbd;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 0.9rem;
+  line-height: 20px;
+  padding: 0;
+  opacity: 0.9;
+}
+
+/* 
+========================
+FOOTER STYLES
+========================
+*/
+
+footer {
+  width: 100%;
+  height: 30px;
+  background-color: #44474c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.attribution {
+  color: #2ebfbd;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #669edd;
+}
+
+/* 
+========================
+BREAKPOINTS
+========================
+*/
+
+@media (min-width: 768px) {
+  #card {
+    width: 650px;
+    max-width: 650px;
+    height: 480px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  #top-section,
+  #bottom-left-section,
+  #bottom-right-section {
+    padding: 40px;
+  }
+
+  #top-section {
+    width: 100%;
+    height: 45%;
+  }
+
+  #bottom-section {
+    width: 100%;
+    height: 55%;
+
+    display: flex;
+  }
+
+  #bottom-left-section,
+  #bottom-right-section {
+    width: 50%;
+    height: 100%;
+  }
+}
