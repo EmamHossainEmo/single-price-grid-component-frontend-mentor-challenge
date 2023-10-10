@@ -51,7 +51,6 @@ SHARED STYLES
 
 h1,
 h2,
-h3,
 p {
   margin: 0;
 }
@@ -84,7 +83,7 @@ TOP SECTION
   color: #2ab2af;
 }
 
-#top-section h3 {
+#top-section h2 {
   color: #c0df34;
   font-weight: 700;
   margin-bottom: 10px;
