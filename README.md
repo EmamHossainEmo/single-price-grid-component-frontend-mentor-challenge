@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site]([https://your-live-site-url.com](https://github.com/EmamHossainEmo/single-price-grid-component-frontend-mentor-challenge/deployments/github-pages))
 
 ## My process
 
